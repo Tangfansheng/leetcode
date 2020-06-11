@@ -134,11 +134,12 @@ class FooBar {
 }
 ```
 
-没有明显的优化。
+尝试了一下内存消耗最高和耗时最短的，其实相差不大。
+
 ![](https://github.com/Tangfansheng/leetcode/blob/master/Leetcode/reentrantLock.png)
 
 
-尝试了一下内存消耗最高和耗时最短的，其实相差不大。
+
 
 
 
