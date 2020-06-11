@@ -80,7 +80,7 @@ class FooBar {
 
 改用synchronize锁来实现互斥，然后加入判断。能过但是内存消耗还是很高，耗时能接受。
 
-<img src="D:\ProgramData\MyNotes\leetcode\Leetcode\foobar.png" alt="synchronized" style="zoom:80%;" />
+<img src="Leetcode\foobar.png" alt="synchronized" style="zoom:80%;" />
 
 ```java
 //用重入锁试试
@@ -136,7 +136,7 @@ class FooBar {
 
 没有明显的优化。
 
-<img src="D:\ProgramData\MyNotes\leetcode\Leetcode\reentrantLock.png" alt="image-20200609223355051" style="zoom:80%;" />
+<img src="Leetcode\reentrantLock.png" alt="image-20200609223355051" style="zoom:80%;" />
 
 尝试了一下内存消耗最高和耗时最短的，其实相差不大。
 
